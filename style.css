@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(225, 235, 234);
+}
+
+.title_emphasis {
+    color: rgb(247, 193, 0);
+    text-overflow: ellipsis;
+}
+
+.presentation {
+    margin: 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation__content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 20px;
+}
+
+.presentation__content__title {
+    width: 900;
+    font-family: 'Krona One', sans-serif;
+    font-size: 38px;
+}
+
+.presentation__content__paragraf {
+    font-size: 20px;
+    font-family: 'Montserrat', serif;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.insta__logo {
+    height: 20px;
+    width: 20px;
+}
+
+.git__logo {
+    height: 20px;
+    width: 20px;
+}
+
+.presentation__links {
+    border-radius: 9px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1.7px solid rgb(247, 193, 0);
+    color: rgb(247, 193, 0);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.backimage {
+
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+
+}
