@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --primary-color: #122620;
+    --secondary-color: #D6AD60;
+    --text-collor: #F4EBD0;
+    --hover-color: #6b5e45;
+    --primaruy-font: 'Krona One', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif, 600;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: var(--text-collor);
+}
+
+.title_emphasis {
+    color: var(--secondary-color);
+    text-overflow: ellipsis;
+}
+
+.main {
+    padding: 1% 6% 6% 5.5%;
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-between;
+}
+
+.presentation__content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 8%;
+}
+
+.presentation__content__title {
+    width: 100%;
+    font-family: var(--primaruy-font);
+    font-size: 2.375rem;
+}
+
+.presentation__content__paragraf {
+    font-size: 1.25rem;
+    font-family: var(--secondary-font);
+}
+
+.text__to__social {
+    font-family: var(--primaruy-font);
+    font-size: 1rem;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25%;
+}
+
+.link__logo {
+    height: 70%;
+}
+
+.presentation__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    border: 1.4px solid var(--secondary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+}
+
+.presentation__links:hover {
+    background-color: var(--hover-color);
+}
+
+.backimage {
+    width: 48%;
+    height: 450px;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1%;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    font-size: smaller;
+
+}
+
+.footer:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.header {
+    padding: 1.5% 0 2% 5%;
+}
+
+.navigation__menu {
+    display: flex;
+    gap: 5%;
+
+}
+
+.navigation__link {
+    font-family: var(--secondary-font) 1.5rem;
+    color: var(--secondary-color);
+    padding: 0.8% 0.8%;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    background-color: var(--hover-color);
+    border: 0.1px solid var(--secondary-color);
+    cursor: pointer;
+}

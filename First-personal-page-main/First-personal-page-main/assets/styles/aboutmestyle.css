@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    height: 100vp;
+    background-color: rgb(0, 0, 0);
+    color: rgb(225, 235, 234);
+}
+
+.header {
+    padding: 1.5% 0 2% 5%;
+}
+
+.navigation__menu {
+    display: flex;
+    gap: 100px;
+
+}
+
+.navigation__link {
+    font-family: 'Montserrat', sans-serif, 25px;
+    color: rgb(247, 193, 0);
+    padding: 10px 10px;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    background-color: rgb(26, 26, 26);
+    border: 0.1px solid rgb(247, 193, 0);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+}
+
+.footer:hover {
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
+}
